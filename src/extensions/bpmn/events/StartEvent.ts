@@ -80,6 +80,7 @@ class StartEventView extends RectNode {
     )
   }
   getShape() {
+    //测试
     const model = this.props.model
     const { x, y, width, height } = model
     const { strokeWidth, fill } = model.getNodeStyle()
